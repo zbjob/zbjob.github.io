@@ -591,6 +591,17 @@ who are being most actively considered for the  position.
 				<div class="fh5co-content-inner">
 					<div class="row">
 						<div class="col-md-12">
+
+
+                            <h3>DeltaZip: Multi-tenant Language Models Serving via Delta Compression</h3>
+                            <p><a href="https://about.yao.sh/">Xiaozhe Yao</a>, ETH Zürich, 26.Feb.2024, 13:00 EET, Online </p>
+                            <p><b>[Abstract]</b> Fine-tuning large language models (LLMs) for downstream tasks can greatly improve model quality, however serving many different fine-tuned LLMs concurrently for users in multi-tenant environments is challenging. Dedicating GPU memory for each model is prohibitively expensive and naively swapping large model weights in and out of GPU memory is slow. Our key insight is that fine-tuned models can be quickly swapped in and out of GPU memory by extracting and compressing the delta between each model and its pre-trained base model. We propose DeltaZip, an LLM serving system that efficiently serves multiple full-parameter fine-tuned models concurrently by aggressively compressing model deltas by a factor of 6× to 8× while maintaining high model quality. DeltaZip increases serving throughput by 1.5× to 3× and improves SLO attainment compared to a vanilla HuggingFace serving system. 
+                            </p>
+
+
+<p><b>[About the speaker]</b> Xiaozhe Yao is a second-year doctoral student at Systems Group, Department of Computer Science, ETH Zürich advised by Prof. Dr. Ana Klimović. Working on a wide spectrum of machine learning and systems, his research direction is to build systems that support large-scale machine learning and democratize machine learning. Prior to ETH, Xiaozhe Yao gained his Master’s degree at the University of Zurich in Data Science, advised by Prof. Dr. Michael Böhlen and Qing Chen. Before that, he completed his Bachelor’s study at Shenzhen University in Computer Science, advised by Prof. Dr. Shiqi Yu. He interned at Shenzhen Institute of Advanced Technology in 2016 as a data scientist.</p>
+<hr style="width:100%;text-align:left;margin-left:0">
+
                             <h3>TempoRL: Efficient Deep Reinforcement Learning with Recurrent Tensors</h3>
                             <p><a href="https://www.doc.ic.ac.uk/~pms20/">Pedro Silvestre</a>, Imperial College London, 19.Feb.2024, 13:00 EET, Online </p>
                             <p><b>[Abstract]</b> Reinforcement Learning (RL) is an increasingly relevant area of algorithmic research. Though RL differs substantially from Supervised Learning (SL), today's RL frameworks are often simple wrappers over SL systems. In this talk, we first analyse the differences between SL and RL from the system designer's point-of-view, then discuss the issues and inefficiencies of RL frameworks arising from those differences. In particular, we discuss how the existence
