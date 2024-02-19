@@ -595,7 +595,7 @@ who are being most actively considered for the  position.
 
 
                             <h3>DeltaZip: Multi-tenant Language Models Serving via Delta Compression</h3>
-                            <p><a href="https://about.yao.sh/">Xiaozhe Yao</a>, ETH Zürich, 26.Feb.2024, 13:00 EET, Online </p>
+                            <p><a href="https://about.yao.sh/">Xiaozhe Yao</a>, ETH Zürich, 26.Feb.2024, 14:00 EET, Online </p>
                             <p><b>[Abstract]</b> Fine-tuning large language models (LLMs) for downstream tasks can greatly improve model quality, however serving many different fine-tuned LLMs concurrently for users in multi-tenant environments is challenging. Dedicating GPU memory for each model is prohibitively expensive and naively swapping large model weights in and out of GPU memory is slow. Our key insight is that fine-tuned models can be quickly swapped in and out of GPU memory by extracting and compressing the delta between each model and its pre-trained base model. We propose DeltaZip, an LLM serving system that efficiently serves multiple full-parameter fine-tuned models concurrently by aggressively compressing model deltas by a factor of 6× to 8× while maintaining high model quality. DeltaZip increases serving throughput by 1.5× to 3× and improves SLO attainment compared to a vanilla HuggingFace serving system. 
                             </p>
 
