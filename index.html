@@ -593,6 +593,22 @@ who are being most actively considered for the  position.
 					<div class="row">
 						<div class="col-md-12">
 
+                            <h3>Chameleon: a Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models</h3>
+                            <p><a href="https://wenqijiang.github.io/">Wenqi Jiang</a>, ETH Zürich, 7.Mar.2024, 14:00 EET, Online </p>
+                            <p><b>[Abstract]</b> 
+The recent advances in generative large language models (LLMs) are attributable to the surging number of model parameters trained on massive datasets. However, improving LLM quality by scaling up models leads to several major problems including high computational costs. Instead of scaling up the models, a promising direction, which OpenAI has recently adopted, is known as Retrieval-Augmented Language Model (RALM), which augments a large language model (LLM) by retrieving context-specific knowledge from an external database via vector search. This strategy facilitates impressive text generation quality even with smaller models, thus reducing computational demands by orders of magnitude.
+				</p> 
+ 
+
+                            <p>
+However, RALMs introduce unique system design challenges due to (a) the diverse workload characteristics between LLM inference and retrieval and (b) the various system requirements and bottlenecks for different RALM configurations including model sizes, database sizes, and retrieval frequencies. In this talk, I will present Chameleon, a heterogeneous accelerator system integrating both LLM and retrieval accelerators in a disaggregated architecture. The heterogeneity ensures efficient serving for both LLM inference and retrieval, while the disaggregation allows independent scaling of LLM and retrieval of accelerators to fulfill diverse RALM requirements. Our Chameleon prototype implements retrieval accelerators on FPGAs and assigns LLM inference to GPUs, with a CPU server orchestrating these accelerators over the network. Evaluated on various RALMs, Chameleon exhibits up to 2.16× reduction in latency and 3.18× speedup in throughput compared to the hybrid CPU-GPU architecture.
+</p>
+
+<p><b>[About the speaker]</b> 
+Wenqi Jiang is a fourth-year Ph.D. student at ETH Zurich, where he is affiliated with the systems group advised by Gustavo Alonso and Torsten Hoefler. Wenqi's research interests span data management, computer architecture, and computer systems. His work primarily focuses on designing post-Moore data systems, which involve cross-stack solutions including algorithm, system, and architecture innovations. Some examples of his work include large language models, vector search, recommender systems, and spatial data processing.
+</p>
+
+<hr style="width:100%;text-align:left;margin-left:0">
 
                             <h3>DeltaZip: Multi-tenant Language Models Serving via Delta Compression</h3>
                             <p><a href="https://about.yao.sh/">Xiaozhe Yao</a>, ETH Zürich, 26.Feb.2024, 14:00 EET, Online </p>
