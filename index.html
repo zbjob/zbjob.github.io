@@ -609,6 +609,20 @@ who are being most actively considered for the  position.
                             <p>The ADIS Seminars provide a forum to discuss the state of the art in systems research with experts from leading academic institutes and industry labs. All events are free to join, please reach out to our group members for accesses. </p> 
 
 
+ <h3>Window-based Learned Index</h3>
+                             <p><a href="https://scholar.google.com/citations?user=97k8aygAAAAJ&hl=en">Liang Liang</a>, Imperial College London, 20.Jun.2024, 14:00 EEST, Online</p>
+                             <p><b>[Abstract]</b>
+                             Learned indices have shown substantial improvements in lookup perfor- mance. With the advancement of updatable learned indices, they are partic- ularly effective in dynamic environments like stream processing. Data stream processing systems, which allow querying over sliding windows of data streams, require efficient index structures for operations such as aggregation and joins. We introduce FLIRT, a learned index specifically designed for managing in- coming streams of sequential data, such as time-series data, over a window. FLIRT utilizes a piece-wise linear model to reduce lookup times and employs a queue-assembly structure to efficiently support updates.
+While FLIRT is optimized for scenarios where the search keys arrive in a spe- cific order, this requirement can be restrictive in diverse streaming environments. The need for sequential key arrivals limits FLIRT’s applicability, for instance, in settings where the order of data arrival (processing time) does not reflect the inherent order of the data events (event-time). To overcome these limita- tions and broaden the use cases, we developed SWIX, a versatile learned index designed for more generic window processing. Unlike FLIRT, SWIX accommo- dates out-of-order key insertions, thereby enhancing its utility in environments where data arrival order is unpredictable. To support its versatility, SWIX em- ploys sophisticated buffering techniques and lightweight structures that enables efficient query execution at a low cost and makes SWIX memory efficient. Our experiments demonstrate that both FLIRT and SWIX achieve excellent per- formance in their respective applications and pave the way for incorporating streaming learned indices into other operations, such as streaming joins.
+                             </p>
+
+
+ <p><b>[About the speaker]</b>
+ Liang is currently a PhD student at Imperial College London, where he is supervised by Prof. Thomas Heinis and specializes in database research. Before embarking on his PhD, Liang earned a Master’s degree in High Performance Computing with Data Science from the University of Edinburgh with distinction in 2020 and a Master’s degree in Data Science from Monash University with high distinction in 2019. He completed his undergraduate studies in Law at TianGong University in 2016.
+Liang’s research focuses on data-oriented streaming workflow systems and streaming learned indices. He has published in to prestigious journals and conferences venues and continues to explore the integration of learned indices into streaming operations, such as joins and aggregations. Additionally, Liang is very interested in combining machine learning methods to enhance streaming tasks, join cardinality estimation, predictive state representations, and hybrid auto-scaling approaches.
+</p>
+ <hr style="width:100%;text-align:left;margin-left:0">
+
  <h3>SQL2Circuits: Estimating Metrics for SQL Queries with A Quantum Natural Language Processing Method</h3>
                              <p><a href="https://valteruo.github.io/">Valter Uotila</a>, University of Helsinki, 26.Mar.2024, 14:00 EET, CS Building B322</p>
                              <p><b>[Abstract]</b>
